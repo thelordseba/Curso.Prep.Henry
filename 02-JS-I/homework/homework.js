@@ -103,8 +103,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var resto = x % Y;
-  //return resto;
+  var resto = x % y;
+  return resto;
 }
 
 function esPar(num) {
@@ -131,50 +131,68 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  var cuadrado = Math.pow(num , 2);
+  return cuadrado;
   
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var cubo = Math.pow(num , 3);
+  return cubo;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  var potencia = Math.pow(num , exponent);
+  return potencia;
 }
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
+  var redondeo = Math.round(num);
+  return redondeo;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
+  var redondeo = Math.ceil(num);
+  return redondeo;
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var texto = str + '!';
+  return texto;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  var nombre = nombre + ' ' + apellido;
+  return nombre;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  var saludo = "Hola " + nombre + "!";
+  return saludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
+  var areaRactangulo = alto * ancho;
+  return areaRactangulo;
 }
 
 
