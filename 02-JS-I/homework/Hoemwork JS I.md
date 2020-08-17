@@ -13,7 +13,7 @@
 	* Funciones (argumentos, `return`)
 
      Con las funciones puedo agrupar código para luego reutilizar. Con ellas evito escribir el mismo código repetidas veces.
-     En el argumento de las funciones puedo recibir uno o más datos del exterior para poder trabajar con ellos dentro de la misma.
+     A través del argumento las funciones pueden recibir uno o más datos del exterior para poder trabajar con ellos dentro de la misma.
      Las funciones pueden también devolver algún valor o resultado a través de la palabra reservada 'return'.
 
 
