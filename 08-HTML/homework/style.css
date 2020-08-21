@@ -1,0 +1,20 @@
+h1{
+   color: red; /* OJO va con punto y coma ;*/ 
+}     	
+
+img{
+	width: 400px;
+}
+
+#thirdDiv{                       /*Para acceder al id de nombre "thirdDiv" hay que anteponer # */
+	height: 600px;     		
+	width: 500px; 
+	background-color: blue;    	/*Para cambiar el color de fondo uso la propiedad background-color*/	
+	padding: 50px;
+	border: 15px solid green;
+}
+
+#spanId{
+  	font-size: 18px;            /*font-size para el tamaño de la fuente*/
+   	margin: 50px;
+}
