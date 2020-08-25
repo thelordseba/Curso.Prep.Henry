@@ -1,0 +1,26 @@
+/*#divTitulo{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: green;
+}*/
+ 
+ .parent{
+    border: 2px black dotted; /*dotted = linea de puntos*/
+    display: inline-block;
+ }
+
+ .box{
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+ }
+
+ #dos{
+    top:20px;
+    left: 20px;
+    background:green;
+    position: relative;
+ }
+

@@ -1,0 +1,40 @@
+#practicaFlexBox{
+	width: 500px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+	position: relative;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+
+.textoElemento{
+	display: block;
+	text-align: center;
+	align-self: center;
+}
+
+.elementos{
+	width: 150px;
+	height: 100px;
+	display: flex;
+	background-color: white;
+}
+
+#elementoUno{
+	border: 2px dashed green;
+}
+
+#elementoDos{
+	border: 2px dashed orange;
+}
+
+#elementoTres{
+	border: 2px dashed blue;
+}
+
+#elementoCuatro{
+	border: 2px dashed red;
+}

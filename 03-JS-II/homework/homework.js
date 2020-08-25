@@ -66,6 +66,9 @@ function esEntero(numero) {
   }else{
     return false;
   }
+
+
+  //return  numero % 1 === 0; 
 }
 
 function fizzBuzz(numero) {
@@ -73,17 +76,12 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if(numero % 3 === 0){
-    if(numero % 5 === 0){
-      return "fizzbuzz";
-    }else{
-      return "fizz";
-    }else if(numero % 5 === 0){
-      return "buzz";
-    }else{
-      return numero;
-    }
-  }
+  
+if(numero % 3 === 0 && numero % 5 === 0) return 'fizzbuzz';
+if(numero % 3 === 0) return 'fizz';
+if(numero % 5 === 0) return 'buzz';
+return numero;
+
 }
 
 function esPrimo(numero) {
@@ -93,7 +91,7 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
 
-  if(numero >= 2){
+ /* if(numero >= 2){
     if(numero === 2){
       return true;
     }else{
@@ -106,7 +104,16 @@ function esPrimo(numero) {
     }     
   }else{
     return false;
+  }*/
+
+
+  if(numero < 2) return false;
+  for(var i = 2; i < numero; i++){
+    if(numero % i === 0){
+      return false;
+    }
   }
+  return true;
 }
 
 

@@ -78,6 +78,9 @@ function tienenMismaLongitud(str1, str2) {
     return true;
   }
    return false;  
+
+   //Tambien puedo hacer:
+   //return str1.length == str2.length;   El operador lógico === compara los valores y me devuelve true o false según sea el caso
 }
 
 function menosQueNoventa(num) {
@@ -90,6 +93,8 @@ function menosQueNoventa(num) {
   return false;
 }
 
+// return true < 90;
+
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
@@ -99,6 +104,8 @@ function mayorQueCincuenta(num) {
   }
   return false;
 }
+
+//return num > 50;
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
